@@ -36,7 +36,7 @@ public class DataSourceConfig extends AbstractCloudConfig {
     private boolean isMySQL(DataSource dataSource) throws SQLException {
       // implement me!
     	if (dataSource.getConnection().getMetaData().getDriverName().toLowerCase().contains("mysql"))
-    	{logger.info("******FOUND CLOUD CONNECTOR FOR MYSQL******");
+    	{logger.info("@@@@******FOUND CLOUD CONNECTOR FOR MYSQL******@@@@");
     		 return true;}
     	
     	return false;
