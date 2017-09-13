@@ -10,4 +10,4 @@ spring:
     name: company
   cloud: 
     config: 
-      uri: "${vcap.services.my_config_server_svc.credentials.url}"
+      uri: ${vcap.services.my_config_server_svc.credentials.url}
