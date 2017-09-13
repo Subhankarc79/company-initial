@@ -10,5 +10,4 @@ applications:
     services: 
       - sc_db_mysql_company
       - SC_CF_LOG_DRAIN
-      - my_config_repo_svc
     timeout: 180
